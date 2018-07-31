@@ -62,7 +62,7 @@ install_if_not language-pack-en-base
 sudo locale-gen "sv_SE.UTF-8" && sudo dpkg-reconfigure --frontend=noninteractive locales
 
 # Test RAM size (2GB min) + CPUs (min 1)
-ram_check 2 Nextcloud
+#ram_check 2 Nextcloud
 cpu_check 1 Nextcloud
 
 # Create new current user
